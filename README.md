@@ -37,8 +37,7 @@ fetches data from the OpenWeatherMap API.
 
 ## Screenshots
 
- <img src="./app/src/main/assets/screenshot1.png" height="400" alt="Main screen screenshot"/>
-| <img src="./app/src/main/assets/screenshot2.png" height="400" alt="Search city screenshot"/> | 
+ <img src="./app/src/main/assets/screenshot1.png" height="400" alt="Main screen screenshot"/>| <img src="./app/src/main/assets/screenshot2.png" height="400" alt="Search city screenshot"/> | 
 | :---: | :---: |
 
 ## API Key
