@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Current Weather</string>
+    <string name="city_name_insert">Insert the city name</string>
+    <string name="app_logo_description">app logo</string>
+    <string name="city_name">City Name</string>
+    <string name="max_temp">Max:</string>
+    <string name="min_temp">Min:</string>
+    <string name="feels_like">Feels L.:</string>
+    <string name="humidity">Humidity:</string>
+    <string name="default_temp">0.0ºC</string>
+    <string name="humidity_value">00%</string>
+    <string name="current_temp">00ºC</string>
+    <string name="error_message">An error has occurred</string>
+    <string name="daily_forecast">Daily Forecast</string>
+    <string name="temperature_celsius">%1$.1fºC</string>
+    <string name="humidity_percentage">%1$d%%</string>
+    <string name="default_date">01/01</string>
+</resources>
