@@ -6,10 +6,10 @@ import br.com.currentweather.commom.util.testing.IdlingResourceHelper
 import br.com.currentweather.data.api.models.ForecastDailyResponse
 import br.com.currentweather.data.api.models.WeatherResponse
 import br.com.currentweather.data.models.WeatherData
-import br.com.currentweather.data.network.CurrentWeatherSource
+import br.com.currentweather.data.network.CurrentWeatherDataSource
 
 class WeatherRepository(
-    private val currentWeatherSource: CurrentWeatherSource = CurrentWeatherSource(),
+    private val currentWeatherSource: CurrentWeatherDataSource = CurrentWeatherDataSource(),
     private val mIdlingResourceHelper: IdlingResourceHelper = EspressoIdlingResourceHelper()
 ) {
 

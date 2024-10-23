@@ -37,8 +37,8 @@ fetches data from the OpenWeatherMap API.
 
 ## Screenshots
 
- <img src="./app/src/main/assets/screenshot1.png" height="400" alt="Main screen screenshot"/>| <img src="./app/src/main/assets/screenshot2.png" height="400" alt="Search city screenshot"/> | 
-| :---: | :---: |
+| <img src="./app/src/main/assets/screenshot1.png" height="400" alt="Main screen screenshot"/> | <img src="./app/src/main/assets/screenshot2.png" height="400" alt="Search city screenshot"/> | 
+|:--------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------:|
 
 ## API Key
 * This app uses an external API. To ensure fair usage and prevent service disruption, the API key
@@ -106,6 +106,7 @@ to [DEPENDENCIES.md](docs/DEPENDENCIES.md)*
 * Improve UI/UX design.
 * Implement error handling and display appropriate messages to the user.
 * Add support for displaying weather forecasts for multiple days.
+* Implement instrumented tests
 
 ## Contact
 

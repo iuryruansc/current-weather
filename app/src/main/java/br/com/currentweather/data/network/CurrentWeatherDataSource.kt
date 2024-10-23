@@ -5,7 +5,7 @@ import br.com.currentweather.data.api.ApiServiceClient
 import br.com.currentweather.data.api.models.ForecastDailyResponse
 import br.com.currentweather.data.api.models.WeatherResponse
 
-class CurrentWeatherSource(private val apiService: ApiService = ApiServiceClient.instance) {
+class CurrentWeatherDataSource(private val apiService: ApiService = ApiServiceClient.instance) {
 
     suspend fun fetchWeatherData(name: String): WeatherResponse? {
         val weatherResponse = apiService.getWeather(name)

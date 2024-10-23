@@ -15,6 +15,8 @@ coroutine = "1.9.0"
 espressoIdlingResource = "3.6.1"
 detekt = "1.23.7"
 ktlint = "11.3.1"
+mockito = "5.14.2"
+androidxTest = "1.6.1"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -30,6 +32,9 @@ converter = { group = "com.squareup.retrofit2", name = "converter-gson", version
 coroutine-core = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-core", version.ref = "coroutine"}
 coroutine-android = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "coroutine"}
 androidx-espresso-idling-resource = { group = "androidx.test.espresso", name = "espresso-idling-resource", version.ref = "espressoIdlingResource" }
+mockito-core = { group = "org.mockito", name = "mockito-core", version.ref = "mockito"}
+coroutine-test = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-test", version.ref = "coroutine"}
+androidx-test = { group = "androidx.test", name = "core", version.ref = "androidxTest"}
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

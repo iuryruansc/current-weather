@@ -22,6 +22,8 @@ This file lists the dependencies used in this project, managed using a version c
 | Espresso Idling Resource | 3.6.1   |
 | Ktlint                   | 1.23.7  |
 | Detekt                   | 11.3.1  |
+| Mockito                  | 5.14.2  |
+| Androidx Test            | 1.6.1   |
 
 
 # Libraries
@@ -48,9 +50,12 @@ This file lists the dependencies used in this project, managed using a version c
 ## Testing
 
 * junit:junit: `junit`
-* androidx.test.ext:junit: `junitVersion`
+* androidx.test.ext:junit: `androidxJUnit`
 * androidx.test.espresso:espresso-core: `espressoCore`
 * androidx.test.espresso:espresso-idling-resource: `espressoIdlingResource`
+* org.mockito:mockito-core: `mockito`
+* org.jetbrains.kotlinx:kotlinx-coroutines-test: `androidxTest`
+  
 
 
 ## Build & Tooling

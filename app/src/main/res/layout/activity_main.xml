@@ -27,6 +27,7 @@
         android:hint="@string/city_name_insert"
         app:endIconDrawable="@android:drawable/ic_menu_search"
         app:endIconMode="custom"
+        app:endIconContentDescription="@string/search_icon_description"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/logo">

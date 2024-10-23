@@ -55,6 +55,9 @@ dependencies {
     implementation(libs.coroutine.android)
     implementation(libs.androidx.espresso.idling.resource)
     testImplementation(libs.junit)
+    testImplementation(libs.mockito.core)
+    testImplementation(libs.coroutine.test)
+    testImplementation(libs.androidx.test)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
 }

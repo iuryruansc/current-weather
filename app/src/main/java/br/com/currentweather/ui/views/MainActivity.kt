@@ -15,9 +15,6 @@ import br.com.currentweather.commom.util.ui.showErrorDialog
 import br.com.currentweather.databinding.ActivityMainBinding
 import br.com.currentweather.ui.viewmodels.MainActivityViewModel
 import kotlinx.coroutines.launch
-import java.text.SimpleDateFormat
-import java.util.Date
-import java.util.Locale
 
 class MainActivity : AppCompatActivity() {
 
@@ -122,7 +119,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-  //  function to format dt time for daily forecast
+    //  function to format dt time for daily forecast
 //    private fun formattingDate(dt: Long): String {
 //        val date = Date(dt * 1000L)
 //        val dateFormat = SimpleDateFormat("dd/MM", Locale.getDefault())
